@@ -55,7 +55,8 @@ let arr5 = ["the", "way", "x", 4];
 let word = "way"
  if (word=="way"){
   console.log(word)
- }else{
+ }
+ else{
   console.log("the search word was not found")
  }
 
@@ -66,7 +67,7 @@ let word = "way"
 
 
 let string = "sevink"
-console.log(string.split('').sort().join(''));
+console.log(string.split('').sort());
 
 
 
